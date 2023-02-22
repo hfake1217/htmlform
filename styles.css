@@ -1,0 +1,82 @@
+body {
+    background: lightsteelblue;
+  color: #1b1b32;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    border: 4px solid #6c81a7;
+    max-width: 70%;
+    margin: auto;
+}
+
+section {
+    padding: 0 10px 0 10px;
+}
+
+section:after {
+    padding-bottom: 20px;
+}
+
+.demographics-name {
+    display: flex;
+}
+
+.demographics .lName {
+    display: inline-block;
+}
+
+h2 {
+    border-bottom: 4px solid #dfdfe2;
+}
+
+.demographics, .demographics-name, .demographics-gender {
+    padding: 5px 0 0 20px;
+}
+
+.demographics-section .h2 {
+    display: inline-block;
+}
+.demographics input {
+    width: 25%;
+    text-align: left;
+    min-width: 100px;
+    max-width: 175px;
+}
+
+.name-label {
+    min-width: 91px;
+    text-align: right;
+}
+
+.lName-input, .fName-input {
+    min-width: 75px;
+}
+
+.demographics label {
+    display: inline-block;
+    min-width: 86px;
+    text-align: right;
+}
+
+.demographics-gender {
+    display: inline-block;
+}
+
+.demographics-gender input {
+    width: 16px;
+}
+
+.gender-fieldset {
+    border-style: none;
+}
+
+.sports-fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+}

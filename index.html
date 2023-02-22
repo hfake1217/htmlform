@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>New Patient Information</h1>
+        <p>Please fill out the form below</p>
+        <form class="" action="" method="">
+            <section class="demographics-section">
+                <h2>Demographics</h2>
+            <div class="demographics-name">
+                <label class="name-label" id="fName-label" for="fName">Full Name</label>
+                <input class="fName-input" type="text" name="fName" id="fName" placeholder="First Name" required>
+                <input class="lName-input" type="text" name="lName" id="lName" placeholder="Last Name" required>
+            </div>
+            <div class="demographics">
+                <label id="email-label" for="email">Email</label>
+                <input class="email-input" type="email" name="email" id="email" placeholder="example@email.com" required>
+            </div>
+            <div class="demographics">
+                <label id="dob-label" for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <div class="demographics-gender">
+                <label>Select your gender:
+                <fieldset class="gender-fieldset">
+                    <input type="radio" value="checked" name="radio">Male
+                    <input type="radio" value="checked" name="radio">Female
+                </fieldset>
+            </label>
+            </div>
+        </section>
+        <section class="sports-section">
+            <div>
+                <h2>Sports</h2>
+                <legend>Select all of the sports you are playing this year:</legend>
+                    <fieldset class="sports-fieldset">
+                        <div>
+                            <input type="checkbox" name="soccer-input" id="soccer-input">
+                            <label for="soccer-input">Soccer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="football-input" id="football-input">
+                            <label for="football-input">Football</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="hockey-input" id="hockey-input">
+                            <label for="hockey-input">Hockey</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="lacrosse-input" id="lacrosse-input">
+                            <label for="lacrosse-input">Lacrosse</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="baseball-input" id="baseball-input">
+                            <label for="baseball-input">Baseball</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="track-and-field-input" id="track-and-field-input">
+                            <label for="track-and-field-input">Track and Field</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cross-country-input" id="cross-country-input">
+                            <label for="cross-country-input">Cross Country</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="field-hockey-input" id="filed-hockey-input">
+                            <label for="filed-hockey-input">Field Hockey</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="gymnastics-input" id="gymnastics-input">
+                            <label for="gymnastics-input">Gymnastics</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="basketball-input" id="basketball-input">
+                            <label for="basketball-input">Basketball</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="wrestling-input" id="wrestling-input">
+                            <label for="wrestling-input">Wrestling</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="volleyball-input" id="volleyball-input">
+                            <label for="volleyball-input">Volleyball</label>
+                        </div>
+                    </fieldset>
+            </div>
+        </section>
+        </form>
+    </body>
+</html>
